@@ -1,0 +1,160 @@
+.headerimage {
+	position: relative;
+	height: 33.33%;
+	width: 100%;
+}
+body{
+	font-family: sans-serif;
+
+}
+
+h1 {
+	position: absolute;
+  	top: 60px;
+ 	left: 50px;
+	font-weight: 900; 
+	font-size: 24px;
+	color: white;
+}
+
+h2 {
+	position: absolute;
+	text-align: center;
+	top: 225px;
+	left: 0;
+	width: 100%;
+	color: white;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+#yht{
+	width:200px;
+	background: #033048;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#yht p{
+	position: absolute;
+	top: 335px;
+	color: #606161;
+	font-size: 20px;
+	font-weight: 900;
+	margin-left: 50px;	
+	background: yellow;
+	border-radius: 5px;
+	padding: 10px 25px;
+}
+
+#white-section {
+    width: 100%;
+    height: 500px;
+    background-color: #f0efef;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 60px;
+	padding-left: 70px
+}
+
+.benefits {
+	font-weight: lighter;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 70px
+
+}
+.enjoy {
+	font-weight: lighter;
+	font-size: 20px;
+	padding-left: 70px;
+}
+
+ul {
+	list-style-type: square;
+	font-weight: lighter;
+	padding-left: 150px;
+	font-size: 18px;
+	padding-top: 2.5%;
+}
+
+#yellow-band {
+	background: #f9e42e;
+	padding:25px;
+	bottom: 150px;
+	position: relative;
+}
+		
+#cta{
+	width:200px;
+	background: #033048;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+
+#cta p{
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+
+#footer-background img{
+	width: 100%;	
+}
+
+.foot{
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 320px;
+	color: #f0efef;
+}
+
+.quote{
+	font-weight: bold;
+	font-size: 25px; 
+	text-align: center;
+	padding-top: 1px;
+	color: #f0efef;
+	position: relative;
+	bottom: 280px; 
+}
+
+#blackground{
+	width: 100%;
+	text-align: center;
+	color: #f9e42e;
+	font-weight: bold;
+	padding-top: 0%;
+}
+
+#blackground h4{
+	padding-bottom: 5%;
+	height: 0%;
+	font-size: 40px;
+}
+
+#social {
+	word-spacing: 30px;
+}
+
+.copyright{
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+
+		
