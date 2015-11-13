@@ -368,3 +368,11 @@ footer {
    font-size: 9px;
 }
 
+/*--Js--*/
+.hide {
+	display: none;
+}
+
+.posttext{
+	display: none;
+}

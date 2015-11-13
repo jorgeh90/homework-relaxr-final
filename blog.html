@@ -11,6 +11,7 @@
             <link rel="stylesheet" href="css/reset.css">
             <link rel="stylesheet" type="type/css" href="bloggstyle.css">
             <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800' rel='stylesheet' type='text/css'>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
         </head>
 
@@ -46,15 +47,15 @@
                         </ul>
 
                     <h1 class="sub_head" id="sub_about"> About Relaxr </h1>
-                    <p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla. 
+                    <p id="slide">Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla. 
                     </p>
 
                     <div id="learn_more">
-                        <a href="#">Learn More</a>
+                        <a href="#"><button>Learn More</a></button>
                     </div>    
 
                     <section id="first_ad">
-                        <img src="images/ad-unit.png">  
+                        <img src="images/ad-unit.png"> 
                     </section>
              </aside>
         </div>
@@ -73,10 +74,14 @@
                 </div>
 
                     <p class="blogp">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc turpis arcu, pulvinar quis ornare vitae, vestibulum sit amet eros. Nulla tellus sem, pellentesque commodo libero id, condimentum ultrices nulla. Maecenas auctor sodales lectus nec pulvinar. Pellentesque vel eleifend libero. Vestibulum orci ex, pharetra ut ullamcorper vel, consectetur vel ex. Curabitur id lectus ut felis dapibus sollicitudin non a enim. Phasellus quis orci non lorem interdum sodales in in nisi. Etiam pretium aliquet tortor, eget ornare eros laoreet eu. Nulla porta in dolor sit amet venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras nec odio viverra sem vestibulum varius non vel est. </p>
+                        <span class="pretext">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc turpis arcu, pulvinar quis ornare vitae, vestibulum sit amet eros. Nulla tellus sem, pellentesque commodo libero id, condimentum ultrices nulla. Maecenas auctor sodales lectus nec pulvinar. Pellentesque vel eleifend libero. Vestibulum orci ex, pharetra ut ullamcorper vel, consectetur vel ex. Curabitur id lectus ut felis dapibus sollicitudin non a enim.</span> 
+                        <span class="posttext">
+                         Phasellus quis orci non lorem interdum sodales in in nisi. Etiam pretium aliquet tortor, eget ornare eros laoreet eu. Nulla porta in dolor sit amet venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras nec odio viverra sem vestibulum varius non vel est.
+                        </span></p>
 
-                <div class="read_more">
-                    <a href="#">Read more > </a>
+                <div class="read_more" id="more_read">
+                <a href="#" class="reads">Read more > </a>
                 </div>
 
                 <hr>
@@ -87,8 +92,7 @@
 
     <!-- Blog Post Two -->
 
-
-        <div class="two_parts">
+          <div class="two_parts">
                 <article>
                     <h1 class="article_name">I traveled across the globe thanks to Relaxr’s Excel auomation</h1>
 
@@ -98,11 +102,12 @@
                 </div>
 
                     <p class="blogp">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc turpis arcu, pulvinar quis ornare vitae, vestibulum sit amet eros. Nulla tellus sem, pellentesque commodo libero id, condimentum ultrices nulla. Maecenas auctor sodales lectus nec pulvinar. Pellentesque vel eleifend libero. Vestibulum orci ex, pharetra ut ullamcorper vel, consectetur vel ex. Curabitur id lectus ut felis dapibus sollicitudin non a enim. Phasellus quis orci non lorem interdum sodales in in nisi. Etiam pretium aliquet tortor, eget ornare eros laoreet eu. Nulla porta in dolor sit amet venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras nec odio viverra sem vestibulum varius non vel est.</p>
-                
-                <div class="read_more">
-                    <a href="#">Read more ></a>
+                        <span class="pre_two">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc turpis arcu, pulvinar quis ornare vitae, vestibulum sit amet eros. Nulla tellus sem, pellentesque commodo libero id, condimentum ultrices nulla. Maecenas auctor sodales lectus nec pulvinar. Pellentesque vel eleifend libero. Vestibulum orci ex, pharetra ut ullamcorper vel, consectetur vel ex. Curabitur id lectus ut felis dapibus sollicitudin non a enim. </span>
 
+                        <span class="post_two"> Phasellus quis orci non lorem interdum sodales in in nisi. Etiam pretium aliquet tortor, eget ornare eros laoreet eu. Nulla porta in dolor sit amet venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras nec odio viverra sem vestibulum varius non vel est.</span></p>                
+                <div class="read_more" id="more_read2">
+                    <a href="#">Read more></a>
                 </div>
                 <hr>
 
@@ -116,9 +121,8 @@
                 <div class="yellow-band" id="yellow_two">
                 <div id="cta">
 
-             <a href="#"> <p> Sign Up Now! </p> </a>
+             <a href="#" id="sign"> <p> Sign Up Now! </p> </a>
             
-                </div>
                 </div>
                 </div>
             </footer>
@@ -126,10 +130,13 @@
             <footer class="black_footer">
                 <h1> Relaxr </h1>
                 <a href="https://twitter.com"> <img src="images/twitter.png" alt="twitter"></a>
+
                 <a href="https://www.facebook.com/login/"> <img src="images/facebook.png" alt="facebook"></a>
                 <p> Copyright 2015. Relaxr. </p>
             </div>
             </footer>
 
+        <!-- external js sheet-->
+<script src="script.js"></script>
         </body>
     </html>
